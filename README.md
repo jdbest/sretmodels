@@ -1,3 +1,3 @@
-# How we think about ourselves: Statistical models connect self-referent cognition and depressive symptoms
+# Determining optimal parameters of self-referent cognition in depression: A large scale examination of the Self Referent Encoding Task
 
-This file is one of a series of supplemental explanatory documents for the study "How we think about ourselves: Statistical models connect self-referent cognition and depressive symptoms". Data and code are located at doi: and websites with visual R Markdown explanations are located and navigable on the Mood Disorders Lab’s website, and via these github pages.
+This file is one of a series of supplemental explanatory documents for the study "Determining optimal parameters of self-referent cognition in depression: A large scale examination of the Self Referent Encoding Task". Data and code are located at [doi:10.18738/T8/OFORCU](https://doi.org/10.18738/T8/OFORCU) and websites with visual R Markdown explanations are located and navigable via these github pages.
