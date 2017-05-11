@@ -124,9 +124,9 @@ $(document).ready(function () {
 </div>
 
 
-<div id="determining-optimal-parameters-of-self-referent-cognition-in-depression-a-large-scale-examination-of-the-self-referent-encoding-task" class="section level1">
-<h1>Determining optimal parameters of self-referent cognition in depression: A large scale examination of the Self Referent Encoding Task</h1>
-<p>This file is one of a series of supplemental explanatory documents for the study “Determining optimal parameters of self-referent cognition in depression: A large scale examination of the Self Referent Encoding Task”. Data and code are located at <a href="https://doi.org/10.18738/T8/XK5PXX">doi: 10.18738/T8/XK5PXX</a>, and websites with visual R Markdown explanations are located and navigable on the <a href="https://jdbest.github.io/sretmodels/">paper’s github pages website</a>.</p>
+<div id="determining-optimal-parameters-of-the-self-referent-encoding-task-a-large-scale-examination-of-self-referent-cognition-and-depression" class="section level1">
+<h1>Determining optimal parameters of the Self Referent Encoding Task: A large-scale examination of self-referent cognition and depression</h1>
+<p>This file is one of a series of supplemental explanatory documents for the study “Determining optimal parameters of the Self Referent Encoding Task: A large-scale examination of self-referent cognition and depression”. Data and code are located at <a href="https://doi.org/10.18738/T8/XK5PXX">doi: 10.18738/T8/XK5PXX</a>, and websites with visual R Markdown explanations are located and navigable on the <a href="https://jdbest.github.io/sretmodels/">paper’s github pages website</a>.</p>
 <div id="data-description" class="section level2">
 <h2>Data description</h2>
 <p>This file makes smaller models created in <code>MASS</code> using MASS::glm.nb() to model the depressive symptom severity as a negative binomial distribution. It makes specific comparisons between variables using <code>beset</code> function beset::r2d() to compare them by R<sup>2</sup><sub>D</sub>.</p>
@@ -176,43 +176,43 @@ Model-fit R-squared = 0.27
 Cross-validated R-squared = 0.26, 95% CI [0.23, 0.28]</code></pre>
 </div>
 </div>
-<div id="rt-models" class="section level2">
-<h2>RT models</h2>
+<div id="drift-rate-models" class="section level2">
+<h2>Drift Rate models</h2>
 <div id="college-students-1" class="section level3">
 <h3>College Students</h3>
-<pre><code>For the model with variables negRT and posRT: 
-Model-fit R-squared = 0.09
-Cross-validated R-squared = 0.08, 95% CI [0.07, 0.09]</code></pre>
-<pre><code>For the model with only posRT: 
-Model-fit R-squared = 0.09
-Cross-validated R-squared = 0.09, 95% CI [0.07, 0.1]</code></pre>
-<pre><code>For the model with only negRT: 
-Model-fit R-squared = 0.07
-Cross-validated R-squared = 0.06, 95% CI [0.05, 0.07]</code></pre>
+<pre><code>For the model with variables v.negative and v.positive: 
+Model-fit R-squared = 0.41
+Cross-validated R-squared = 0.4, 95% CI [0.38, 0.42]</code></pre>
+<pre><code>For the model with only v.positive: 
+Model-fit R-squared = 0.33
+Cross-validated R-squared = 0.33, 95% CI [0.31, 0.35]</code></pre>
+<pre><code>For the model with only v.negative: 
+Model-fit R-squared = 0.38
+Cross-validated R-squared = 0.37, 95% CI [0.35, 0.39]</code></pre>
 </div>
 <div id="mturk-sample-1" class="section level3">
 <h3>MTurk sample</h3>
-<pre><code>For the model with variables negRT and posRT: 
-Model-fit R-squared = 0.08
-Cross-validated R-squared = 0.06, 95% CI [0.04, 0.08]</code></pre>
-<pre><code>For the model with only posRT: 
-Model-fit R-squared = 0.08
-Cross-validated R-squared = 0.07, 95% CI [0.04, 0.09]</code></pre>
-<pre><code>For the model with only negRT: 
-Model-fit R-squared = 0.08
-Cross-validated R-squared = 0.06, 95% CI [0.04, 0.08]</code></pre>
+<pre><code>For the model with variables v.negative and v.positive: 
+Model-fit R-squared = 0.4
+Cross-validated R-squared = 0.39, 95% CI [0.37, 0.41]</code></pre>
+<pre><code>For the model with only v.positive: 
+Model-fit R-squared = 0.33
+Cross-validated R-squared = 0.32, 95% CI [0.3, 0.34]</code></pre>
+<pre><code>For the model with only v.negative: 
+Model-fit R-squared = 0.38
+Cross-validated R-squared = 0.38, 95% CI [0.35, 0.4]</code></pre>
 </div>
 <div id="adolescents-1" class="section level3">
 <h3>Adolescents</h3>
-<pre><code>For the model with variables negRT and posRT: 
-Model-fit R-squared = 0.11
-Cross-validated R-squared = 0.09, 95% CI [0.07, 0.1]</code></pre>
-<pre><code>For the model with only posRT: 
-Model-fit R-squared = 0.09
-Cross-validated R-squared = 0.07, 95% CI [0.05, 0.08]</code></pre>
-<pre><code>For the model with only negRT: 
-Model-fit R-squared = 0.11
-Cross-validated R-squared = 0.09, 95% CI [0.07, 0.11]</code></pre>
+<pre><code>For the model with variables v.negative and v.positive: 
+Model-fit R-squared = 0.36
+Cross-validated R-squared = 0.34, 95% CI [0.29, 0.37]</code></pre>
+<pre><code>For the model with only v.positive: 
+Model-fit R-squared = 0.27
+Cross-validated R-squared = 0.26, 95% CI [0.21, 0.29]</code></pre>
+<pre><code>For the model with only v.negative: 
+Model-fit R-squared = 0.29
+Cross-validated R-squared = 0.28, 95% CI [0.24, 0.31]</code></pre>
 </div>
 </div>
 <div id="self-referential-recall-models" class="section level2">
@@ -293,43 +293,43 @@ Model-fit R-squared = 0.04
 Cross-validated R-squared = 0.02, 95% CI [0.01, 0.03]</code></pre>
 </div>
 </div>
-<div id="drift-rate-models" class="section level2">
-<h2>Drift Rate models</h2>
+<div id="rt-models" class="section level2">
+<h2>RT models</h2>
 <div id="college-students-4" class="section level3">
 <h3>College Students</h3>
-<pre><code>For the model with variables v.negative and v.positive: 
-Model-fit R-squared = 0.41
-Cross-validated R-squared = 0.4, 95% CI [0.38, 0.42]</code></pre>
-<pre><code>For the model with only v.positive: 
-Model-fit R-squared = 0.33
-Cross-validated R-squared = 0.33, 95% CI [0.31, 0.35]</code></pre>
-<pre><code>For the model with only v.negative: 
-Model-fit R-squared = 0.38
-Cross-validated R-squared = 0.37, 95% CI [0.35, 0.39]</code></pre>
+<pre><code>For the model with variables negRT and posRT: 
+Model-fit R-squared = 0.09
+Cross-validated R-squared = 0.08, 95% CI [0.07, 0.09]</code></pre>
+<pre><code>For the model with only posRT: 
+Model-fit R-squared = 0.09
+Cross-validated R-squared = 0.09, 95% CI [0.07, 0.1]</code></pre>
+<pre><code>For the model with only negRT: 
+Model-fit R-squared = 0.07
+Cross-validated R-squared = 0.06, 95% CI [0.05, 0.07]</code></pre>
 </div>
 <div id="mturk-sample-4" class="section level3">
 <h3>MTurk sample</h3>
-<pre><code>For the model with variables v.negative and v.positive: 
-Model-fit R-squared = 0.4
-Cross-validated R-squared = 0.39, 95% CI [0.37, 0.41]</code></pre>
-<pre><code>For the model with only v.positive: 
-Model-fit R-squared = 0.33
-Cross-validated R-squared = 0.32, 95% CI [0.3, 0.34]</code></pre>
-<pre><code>For the model with only v.negative: 
-Model-fit R-squared = 0.38
-Cross-validated R-squared = 0.38, 95% CI [0.35, 0.4]</code></pre>
+<pre><code>For the model with variables negRT and posRT: 
+Model-fit R-squared = 0.08
+Cross-validated R-squared = 0.06, 95% CI [0.04, 0.08]</code></pre>
+<pre><code>For the model with only posRT: 
+Model-fit R-squared = 0.08
+Cross-validated R-squared = 0.07, 95% CI [0.04, 0.09]</code></pre>
+<pre><code>For the model with only negRT: 
+Model-fit R-squared = 0.08
+Cross-validated R-squared = 0.06, 95% CI [0.04, 0.08]</code></pre>
 </div>
 <div id="adolescents-4" class="section level3">
 <h3>Adolescents</h3>
-<pre><code>For the model with variables v.negative and v.positive: 
-Model-fit R-squared = 0.36
-Cross-validated R-squared = 0.34, 95% CI [0.29, 0.37]</code></pre>
-<pre><code>For the model with only v.positive: 
-Model-fit R-squared = 0.27
-Cross-validated R-squared = 0.26, 95% CI [0.21, 0.29]</code></pre>
-<pre><code>For the model with only v.negative: 
-Model-fit R-squared = 0.29
-Cross-validated R-squared = 0.28, 95% CI [0.24, 0.31]</code></pre>
+<pre><code>For the model with variables negRT and posRT: 
+Model-fit R-squared = 0.11
+Cross-validated R-squared = 0.09, 95% CI [0.07, 0.1]</code></pre>
+<pre><code>For the model with only posRT: 
+Model-fit R-squared = 0.09
+Cross-validated R-squared = 0.07, 95% CI [0.05, 0.08]</code></pre>
+<pre><code>For the model with only negRT: 
+Model-fit R-squared = 0.11
+Cross-validated R-squared = 0.09, 95% CI [0.07, 0.11]</code></pre>
 </div>
 </div>
 <div id="relative-starting-point-models" class="section level2">
